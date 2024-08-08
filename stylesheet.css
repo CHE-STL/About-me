@@ -1,0 +1,73 @@
+ 
+ /* General body styling */
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
+   color: #333;
+}
+
+/* Container styling */
+div {
+   background-color: #fff;
+   padding: 20px;
+   margin: 20px auto;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   max-width: 800px;
+}
+
+/* Heading styles */
+h1 {
+   text-align: center;
+   color: #4CAF50;
+   margin-top: 30px;
+   font-size: 36px;
+}
+
+h2 {
+   color: #333;
+   border-bottom: 2px solid #4CAF50;
+   padding-bottom: 5px;
+   margin-top: 40px;
+   font-size: 28px;
+}
+
+/* Paragraph styles */
+p {
+   font-size: 18px;
+   line-height: 1.8;
+   margin-bottom: 20px;
+}
+
+/* Links */
+a {
+   color: #4CAF50;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 600px) {
+   div {
+       margin: 10px;
+       padding: 15px;
+   }
+
+   h1 {
+       font-size: 28px;
+   }
+
+   h2 {
+       font-size: 24px;
+   }
+
+   p {
+       font-size: 16px;
+   }
+}
